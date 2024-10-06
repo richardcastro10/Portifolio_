@@ -1,0 +1,16 @@
+@media(max-width:500){
+
+    body {
+        padding: 0;
+        margin: 0%;
+        font-size: 50%;
+        max-width: 60%;
+        max-height: 60%;
+    }
+
+    #qrCode{
+        max-width: 60%;
+        max-height: 60%;
+    }
+
+}

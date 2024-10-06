@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./Portifólio/Assent/CSS/style.css" rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="./Portifólio/Assent/CSS/menu.css">
+  <link rel="stylesheet" href="./Portifólio/Assent/CSS/home.css">
+  <link rel="stylesheet" href="./Portifólio/Assent/CSS/sobre.css">
+  <link rel="stylesheet" href="./Portifólio/Assent/CSS/projetos.css">
+  <link rel="stylesheet" href="./Portifólio/Assent/CSS/skills.css">
+  <link rel="stylesheet" href="./Portifólio/Assent/CSS/contato.css">
+  <link rel="stylesheet" href="./Portifólio/Assent/CSS/acessibilidade.css">
+  <script src="https://unpkg.com/scrollreveal" defer ></script>
+  <script src="./Portifólio/Assent/JS/configScroll.js" defer></script>
+  <script src="./Portifólio/Assent/JS/changeDescription.js" defer></script>
+  <script src="./Portifólio/Assent/JS/typeWriter.js" defer></script>
+  <script src="./Portifólio/Assent/JS/showMore.js" defer></script>
+  <script src="./Portifólio/Assent/JS/menu.js" defer></script>
+  <title>Portfólio | Richard Rocha</title>
+</head>
+
+<!--Menu para acesso geral-->
+
+<body>
+  <header>
+    <nav>
+      <h2><a class="logo" href="#">Richard Rocha</a></h2>
+
+      <ul id="nav-list" class="nav-list">
+        <li class="item-list"><a class="nav-link" href="#about">Sobre mim</a></li>
+        <li class="item-list"><a class="nav-link" href="#projects">Projetos</a></li>
+        <li class="item-list"><a class="nav-link" href="#skills">Conhecimentos</a></li>
+        <li class="item-list"><a class="nav-link" href="#contacts">Contato</a></li>
+        <!-- Bandeiras para troca de idioma -->
+        <li class="item-list">
+          <a href="#" id="en" class="nav-link">
+            <img src="Portifólio/Assent/icons/ingles.png" alt="English" style="width: 30px;">
+          </a>
+        </li>
+        <li class="item-list">
+          <a href="#" id="pt" class="nav-link">
+            <img src="Portifólio/Assent/icons/brazil.png" alt="Português" style="width: 30px;">
+          </a>
+        </li>
+      </ul>
+
+      <div class="menu-icon">
+        <div id="line-one" class="line-1"></div>
+        <div id="line-two" class="line-2"></div>
+        <div id="line-three" class="line-3"></div>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+
+    
+    <section id="home" class="s-home">
+      <div class="home-container">
+        <article class="article-home">
+          <span class="spam-home  d-200">Olá, meu nome é</span>
+          <h1 class="d-300">
+            <span>Richard Rocha </span>
+          </h1>
+          <p id="typeWriter" class="d-300">Desenvolvedor Full Stack</p>
+          <div class="buttons-home d-400">
+            <a class="get-in-touch" href="#contacts">Entrar em contato</a>
+            <a class="cv-download" href="https://drive.google.com/file/d/1o592cZKfzHR6hHaY4l-Lc-gMGR2G42N6/view?usp=sharing" target="_blank">Currículo</a>
+          </div>
+        </article>
+    
+        <div class="image-container">
+          <img src="Portifólio/Assent/icons/eu.png" alt="Minha foto" class="profile-image">
+        </div>
+      </div>
+    </section>
+    
+    <section id="about" class="s-about">
+
+      <article class="article-about">
+        <h2 class="title-about d-200"> <spam class="point">Quem sou ?</spam>
+        </h2>
+        <p class="paragraph-about d-300">
+          Meu nome é Richard, tenho 26 anos e possuo 2 anos de experiência como desenvolvedor,
+           trabalhando com diversas linguagens de programação e frameworks, incluindo C#, PHP, MAUI e Avalonia.
+           Também tenho experiência com metodologias ágeis, como Kanban e Scrum.
+        </p>
+        <p>
+          Venho aprimorando meus conhecimentos em <spam> React e React Native </spam>.
+        </p>
+        <p>
+          Graduando em Análise e Desenvolvimento de Sistemas pela Faculdade Unibr São Vicente
+          e Pós-Graduado em Engenharia de Software.
+        </p>
+      </article>
+
+    </section>
+
+    <section id="projects" class="s-projects">
+
+      <h2 class="title-projects d-200"><spam class="point">Projetos</spam></h2>
+      <div class="container-projects d-300">
+        <div class="row-1">
+          
+          <div class="cards-project d-300">
+            <img src="./Portifólio/Assent/icons/Drawing_Canva.png" alt="Tela do Canva">
+
+            <div class="project-info">
+              <h4>Paint Web</h4>
+              <p>Permite que os usuários criem imagens e ilustrações diretamente em uma página web.</p>
+              <div class="btns-project">
+                <a class="view-live" href="https://richardcastro10.github.io/Drawing_Canvas/" target="_blank">View Live</a>
+
+                <a class="github-repo" href="https://github.com/richardcastro10/Drawing_Canvas" target="_blank">GitHub Repo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-project">
+            <img src="Portifólio/Assent/icons/calculator.png" alt="imagem da Calculadora">
+
+            <div class="project-info">
+              <h4>Calculadora</h4>
+              <p>Efetua cálculos básicos na web com interface amigável e exibição de resultados.</p>
+              <div class="btns-project">
+                <a class="view-live" href="https://richardcastro10.github.io/Calculator/" target="_blank">View Live</a>
+                <a class="github-repo" href="https://github.com/richardcastro10/Calculator" target="_blank">GitHub Repo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-project">
+            <img src="Portifólio/Assent/icons/ezgif.com-gif-maker.gif" alt="projeto QR Code">
+
+            <div class="project-info">
+              <h4>Qr Code</h4>
+              <p>A página apresenta uma transição de cores em seu plano de fundo.</p>
+              <div class="btns-project">
+                <a class="view-live" href="https://richardcastro10.github.io/QR-Code/" target="_blank">View Live</a>
+                <a class="github-repo" href="https://github.com/richardcastro10/QR-Code" target="_blank">GitHub Repo</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row-2">
+          
+          <div class="cards-project">
+            <img src="./Portifólio/Assent/icons/Product Preview.png" alt="Imagem Product preview">
+            <div class="project-info">
+              <h4>Product Preview</h4>
+              <p>Uma página web para apresentação de produto.</p>
+              <div class="btns-project">
+                <a class="view-live" href="https://richardcastro10.github.io/Product-preview/" target="_blank">View Live</a>
+                <a class="github-repo" href="https://github.com/richardcastro10/Product-preview" target="_blank">GitHub Repo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-project">
+            <img src="./Portifólio/Assent/icons/musicStore.PNG" alt="Imagem Music Store">
+            <div class="project-info">
+              <h4>Music Store</h4>
+              <p class="traducao">Um aplicativo simulando um app de musica</p>
+              <div class="btns-project">
+                <a class="view-live" href="https://richardcastro10.github.io/Avalonia.MusicStore/" target="_blank">View Live</a>
+                <a class="github-repo" href="https://github.com/richardcastro10/Avalonia.MusicStore" target="_blank">GitHub Repo</a>
+              </div>
+            </div>
+          </div>
+          
+          <a href="#" class="cards-project">
+            <div class="embreve">
+              <p>EM BREVE</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <button id="show-more" class="show-more d-200">Ver mais</button>
+
+    </section>
+
+    <section id="skills" class="s-skills">
+
+      <article class="article-skills">
+          <h2 class="title-skills d-200"><spam class="point">Skills</spam>
+          </h2>
+          <spam class="card-name"></spam>
+          <p id="info-skills" class="d-300">{ passe o cursor sobre os ícones para saber mais }</p>
+
+      </article>
+
+      <div class="grid-skills d-400">
+          <div class="card-skills html">
+              <img src="./Portifólio/Assent/icons/C.svg" alt="HtmlSvg">
+              <!-- <spam>HTML</spam> -->
+          </div>
+
+          <div class="card-skills css">
+              <img src="./Portifólio/Assent/icons/PHP2.svg" alt="CssSvg">
+              <!-- <spam>CSS</spam> -->
+          </div>
+
+          <div class="card-skills js">
+              <img src="./Portifólio/Assent/icons/webServices.svg" alt="JavaScriptSvg" />
+              <!-- <spam>JavaScript</spam> -->
+          </div>
+
+          <div class="card-skills git">
+              <img src="./Portifólio/Assent/icons/GIT.svg" alt="GitSvg">
+              <!-- <spam>Git</spam> -->
+          </div>
+
+          <div class="card-skills responsive">
+              <img src="./Portifólio/Assent/icons/responsive.svg" alt="ResponsivoSvg">
+              <!-- <spam>Responsividade</spam> -->
+          </div>
+
+          <div class="card-skills accessibility">
+              <img src="./Portifólio/Assent/icons/mobile.svg" alt="AcessibilidadeSvg">
+              <!-- <spam>Acessibilidade</spam> -->
+
+          </div>
+      </div>
+
+    </section>
+
+    <section id="contacts" class="s-contact">
+
+      <article class="article-contact">
+
+          <h2 class="title-contact d-200">
+              <spam class="point">Contato</spam>
+          </h2>
+
+          <div class="social-links d-400">
+
+              <a href="https://www.linkedin.com/in/richard-rocha-castro/" target="_blank"> <img src="./Portifólio/Assent/icons/linkedin-icon.svg"   alt="LinkedIn">  </a>
+
+              <a href="https://github.com/richardcastro10" target="_blank"><img src="./Portifólio/Assent/icons/icon-github.svg"  alt="GitHub">
+              </a>
+
+              <!-- <a href="https://discord.gg/GNAnrBRv" target="_blank"><img src="./Portifólio/Assent/icons/discord-logo.svg"  alt="Discord"></a> -->
+
+              <a href="https://api.whatsapp.com/send?phone=5513997746004" target="_blank"><img src="./Portifólio/Assent/icons/whatsapp.svg"  alt="WhatsApp"></a>
+          </div>
+
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <!-- <a href="#">Inicio <img src="./Portifólio/Assent/icons/arrowUp.svg" alt="arrowUp" ></a> -->
+  </footer>
+
+</body>
+</html>
+
+<script>
+  const translations = {
+    "Sobre mim": "About Me",
+    "Projetos": "Projects",
+    "Conhecimentos": "Skills",
+    "Contato": "Contact",
+    "Olá, meu nome é": "Hello, my name is",
+    "Desenvolvedor Full Stack": "Full Stack Developer",
+    "Entrar em contato": "Get in touch",
+    "Currículo": "Resume",
+    "Quem sou ?": "Who am I?",
+    "Meu nome é Richard, tenho 26 anos e possuo 2 anos de experiência como desenvolvedor, trabalhando com diversas linguagens de programação e frameworks, incluindo C#, PHP, MAUI e Avalonia. Também tenho experiência com metodologias ágeis, como Kanban e Scrum.": 
+    "My name is Richard, I am 26 years old and have 2 years of experience as a developer, working with various programming languages and frameworks, including C#, PHP, MAUI, and Avalonia. I also have experience with agile methodologies such as Kanban and Scrum.",
+    "Venho aprimorando meus conhecimentos em React e React Native": "I have been improving my knowledge in React and React Native",
+    "Graduando em Análise e Desenvolvimento de Sistemas pela Faculdade Unibr São Vicente e Pós-Graduado em Engenharia de Software.": 
+    "Undergraduate in Systems Analysis and Development at Unibr São Vicente College and Postgraduate in Software Engineering.",
+    "Ver Live": "View Live",
+    "passe o cursor sobre os ícones para saber mais" : "hover over the icons to learn more",
+    "Permite que os usuários criem imagens e ilustrações diretamente em uma página web." : "Allows users to create images and illustrations directly on a web page.",
+    "Calculadora": "Calculator",
+    "Efetua cálculos básicos na web com interface amigável e exibição de resultados.": "Performs basic calculations on the web with a user-friendly interface and result display.",
+    "A página apresenta uma transição de cores em seu plano de fundo.": "The page features a color transition in its background.",
+    "Ver mais": "Show more"
+  };
+
+  function changeLanguage(lang) {
+    document.querySelectorAll('.nav-link, .home-container span, .home-container p, .article-about h2, .article-about p, .btns-project a, .title-projects, .project-info p, #info-skills').forEach(element => {
+        const key = element.innerText.trim();
+        if (translations[key]) {
+            element.innerText = lang === 'en' ? translations[key] : key;
+        }
+    });
+
+    const contactLink = document.querySelector('.get-in-touch');
+    const cvLink = document.querySelector('.cv-download');
+  
+    if (lang === 'en') {
+        contactLink.innerText = "Get in touch"; 
+        cvLink.innerText = "Resume"; 
+    } else {
+        contactLink.innerText = translations["Entrar em contato"];
+        cvLink.innerText = translations["Currículo"];
+    }
+}
+
+document.getElementById('show-more').addEventListener('click', function() {
+    const hiddenProjects = document.querySelectorAll('.hidden-project');
+    hiddenProjects.forEach(project => {
+        project.style.display = 'block'; 
+    });
+});
+
+  
+  document.getElementById('en').addEventListener('click', function() {
+    changeLanguage('en');
+  });
+
+  document.getElementById('pt').addEventListener('click', function() {
+    changeLanguage('pt');
+  });
+</script>

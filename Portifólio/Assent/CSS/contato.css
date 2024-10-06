@@ -1,0 +1,86 @@
+.s-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Adiciona flex-direction column para centralizar verticalmente */
+    padding: 70px 70px 60px 70px;
+    gap: 20%;
+    background-color: #171717; /* Adiciona uma cor de fundo para contrastar com o conteúdo */
+}
+
+.article-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente o conteúdo */
+    margin-left: 0; /* Remove a margem esquerda para centralização */
+}
+
+.title-contact {
+    margin-bottom: 25px;
+    font-size: 4rem;
+    color: #fafafa;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.social-links img {
+    transition: 0.2s;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
+
+.form {
+    height: 390px;
+    width: 100%; /* Ajusta a largura para 100% para melhor responsividade */
+    max-width: 600px; /* Define uma largura máxima para o formulário */
+    padding: 20px;
+    border-radius: 1rem;
+    background-color: #171717;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao formulário para destaque */
+    margin: 20px 0; /* Adiciona margens verticais para espaçamento */
+}
+
+.form label {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #fafafa;
+}
+
+.form input, .form textarea {
+    display: block;
+    width: 100%;
+    padding: 15px 0 15px 8px;
+    background-color: #343434;
+    color: #fafafa;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.form button {
+    display: block;
+    width: 100%;
+    max-width: 300px; /* Define uma largura máxima para o botão */
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: #FFD700;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-weight: 550;
+    cursor: pointer;
+    outline: none;
+}
+
+.form button:hover {
+    filter: brightness(0.90);
+}
